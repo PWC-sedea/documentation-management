@@ -266,7 +266,7 @@ picks with Approve / Revise on the same approval turn — see
 complete**, the author must run the **draft→final** structured-choice chain in
 `skills/author/SKILL.md` step 5: after a draft write, offer **Approve draft →
 write final copy** (or revise / explicit skip-to-final); offer part-complete
-confirm only after finals exist or the developer explicitly skips. **Forbidden:**
+confirm only after finals exist or the user explicitly skips. **Forbidden:**
 jumping from first draft write to part-complete confirmation while content is
 still draft-quality.
 

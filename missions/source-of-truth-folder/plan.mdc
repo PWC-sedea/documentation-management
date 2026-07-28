@@ -174,7 +174,7 @@ USER_CHECKPOINT — rclone sync now · skip sync · start hosting ship (when tra
 |--------|------|--------|
 | **rclone sync** | User confirms | Sync registered folder per center registry / rclone contract |
 | **Skip sync** | User defers remote | Record local SoT done; note sync remaining |
-| **Hosting ship** | This pass edited hosting-tracked files | Hosting-repo ship cadence: worktree (if needed) → commit/push/PR → inline **`pr-review`** until terminal → developer merge → post-merge cleanup |
+| **Hosting ship** | This pass edited hosting-tracked files | Hosting-repo ship cadence: worktree (if needed) → commit/push/PR → inline **`pr-review`** until terminal → user merge → post-merge cleanup |
 
 **Hosting-repo ship cadence (when applicable):** [`.sedea/centers/sedea/skills/worktree-setup/SKILL.md`](.sedea/centers/sedea/skills/worktree-setup/SKILL.md) → rule **6** pipeline → [`.sedea/centers/sedea/skills/pr-review/SKILL.md`](.sedea/centers/sedea/skills/pr-review/SKILL.md) → merge → [`.sedea/centers/sedea/skills/worktree-cleanup/SKILL.md`](.sedea/centers/sedea/skills/worktree-cleanup/SKILL.md).
 

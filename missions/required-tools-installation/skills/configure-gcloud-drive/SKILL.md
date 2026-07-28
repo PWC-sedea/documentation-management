@@ -225,7 +225,7 @@ symlink; declaring success from a full SDK path when bare **`gcloud`** is absent
 5. On **create**: confirm the id/name in structured choice **before**
    `gcloud projects create`. Do not create silently. If create fails because
    the id is **taken** / `ALREADY_EXISTS`, derive a new unique suffix (e.g.
-   `-centers`, short hash, or developer-picked slug under the same
+   `-centers`, short hash, or user-picked slug under the same
    **`<org-prefix>-`**), re-open confirm, and retry — do not stop on the first
    collision alone.
 6. Set the active project for subsequent commands

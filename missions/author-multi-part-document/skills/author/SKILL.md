@@ -80,13 +80,13 @@ done — not the whole multi-part document.
    came from that tree.
 5. **Draft→final → part-complete review (binding):** Apply the part plan into
    the document, then run this two-phase review before part-complete
-   confirmation. Drafts may include reasoning or meta asides for developer
+   confirmation. Drafts may include reasoning or meta asides for user
    review; finals must obey step 4 hygiene (no SoT naming / provenance prose in
    the document body).
    1. Write (or revise) the part region. Treat the first substantive write for
       this part — and any later write that is still draft-quality (reasoning /
       comments baked into answer boxes, meta asides, unfinished prose) — as a
-      **draft** until the developer approves substance or explicitly skips to
+      **draft** until the user approves substance or explicitly skips to
       final-as-is.
    2. **Draft review USER_CHECKPOINT** — open structured choice after each draft
       write (and whenever content is still draft-quality). Options at minimum:
@@ -139,7 +139,7 @@ done — not the whole multi-part document.
       **before** `mission_control_send_agent_result`. Options at minimum:
       **Accept none — review complete, zero proposals** · **Nominate follow-up
       loci** · **Re-diff / challenge review** · then the universal trailer. Set
-      `sotFollowUpStatus: none` or `no-sot` **only after** the developer picks
+      `sotFollowUpStatus: none` or `no-sot` **only after** the user picks
       **Accept none** (or after nominate/re-diff resolves with zero approved
       rows). **Forbidden:** agent-only short-circuit from “matches SoT” without
       this gate.
