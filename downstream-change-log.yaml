@@ -1,5 +1,29 @@
 lastSyncedUpstreamSha: "a84739e48c880a11eec7d04de3366fd3d23bc0e6"
-entries: []
+entries:
+  - commitSha: "0d56c2b5e6711f19c86fb55aabf4025d44754d20"
+    capturedAt: "2026-09-23T02:18:16Z"
+    summary: "documentation-management upstream sync (#1)"
+    paths:
+      - "missions/author-multi-part-document/plan.mdc"
+      - "missions/author-simple-document/plan.mdc"
+      - "missions/author-simple-document/skills/author/SKILL.md"
+      - "missions/author-simple-document/skills/document-scaffolder/SKILL.md"
+      - "missions/author-simple-document/skills/file-synchronizer/SKILL.md"
+      - "missions/documentation-folder-configuration/plan.mdc"
+      - "missions/required-tools-installation/plan.mdc"
+      - "missions/required-tools-installation/scripts/setup-rclone-drive-client-id.ps1"
+      - "missions/required-tools-installation/scripts/setup-rclone-drive-client-id.sh"
+      - "missions/required-tools-installation/skills/configure-gcloud-drive/SKILL.md"
+      - "rules/00_documentation-management.mdc"
+      - "rules/10_required-tools.mdc"
+      - "rules/15_gcloud-multi-account.mdc"
+      - "scripts/docx-ooxml-normalize.mjs"
+      - "scripts/docx-ooxml-validate.sh"
+  - commitSha: "fc60f35fccba58ffaeb8363cac68856624578b41"
+    capturedAt: "2026-09-23T02:18:16Z"
+    summary: "chore: record lastSyncedUpstreamSha after center PR #1 merge"
+    paths:
+      - "downstream-change-log.yaml"
 history:
   - upstreamSha: "a84739e48c880a11eec7d04de3366fd3d23bc0e6"
     syncedAt: "2026-08-28T15:28:00Z"
